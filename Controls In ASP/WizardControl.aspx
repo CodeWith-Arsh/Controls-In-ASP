@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="font-family:Arial">
-            <asp:Wizard ID="Wizard2" runat="server" ActiveStepIndex="0" BackColor="#E6E2D8" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" OnFinishButtonClick="Wizard2_FinishButtonClick" OnNextButtonClick="Wizard2_NextButtonClick1">
+            <asp:Wizard ID="Wizard2" runat="server" ActiveStepIndex="0" BackColor="#E6E2D8" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" OnFinishButtonClick="Wizard2_FinishButtonClick" OnNextButtonClick="Wizard2_NextButtonClick1" DisplayCancelButton="True" EnableTheming="True">
                 <HeaderStyle BackColor="#666666" BorderColor="#E6E2D8" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" Font-Size="0.9em" ForeColor="White" HorizontalAlign="Center" />
                 <NavigationButtonStyle BackColor="White" BorderColor="#C5BBAF" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#1C5E55" />
                 <SideBarButtonStyle ForeColor="White" />

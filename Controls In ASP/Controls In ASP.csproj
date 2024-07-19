@@ -155,6 +155,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Download FIle.aspx" />
     <Content Include="WizardControl.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -272,6 +273,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Download FIle.aspx.cs">
+      <DependentUpon>Download FIle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Download FIle.aspx.designer.cs">
+      <DependentUpon>Download FIle.aspx</DependentUpon>
     </Compile>
     <Compile Include="WizardControl.aspx.cs">
       <DependentUpon>WizardControl.aspx</DependentUpon>
