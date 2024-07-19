@@ -35,5 +35,14 @@ namespace Controls_In_ASP
             TextBox1.Text = Calendar1.SelectedDate.ToString("d");
             Calendar1.Visible=false;
         }
+
+        protected void Calendar1_DayRender(object sender, DayRenderEventArgs e)
+        {
+            if(e.Day.IsOtherMonth || e.Day.IsWeekend)
+            {
+                e.Day.IsSelectable = false;
+                e.Cell.BackColor=System.Drawing.Color.Gray;
+            }
+        }
     }
 }

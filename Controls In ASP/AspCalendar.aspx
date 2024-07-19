@@ -12,7 +12,9 @@
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
             <asp:ImageButton ID="ImageButton2" runat="server" Height="27px" ImageUrl="~/Images/R.png" OnClick="ImageButton2_Click" Width="30px" />
         </div>
-        <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
+        <asp:Calendar ID="Calendar1" runat="server" Caption="Training Calendar" CaptionAlign="Top" FirstDayOfWeek="Monday" OnDayRender="Calendar1_DayRender" OnSelectionChanged="Calendar1_SelectionChanged" ShowGridLines="True">
+            <DayHeaderStyle BackColor="#FF3300" BorderColor="#CC3300" ForeColor="White" />
+        </asp:Calendar>
     </form>
 </body>
 </html>

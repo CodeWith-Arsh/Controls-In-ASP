@@ -101,6 +101,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AspCalendar.aspx" />
+    <Content Include="Confirmation.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -123,6 +124,7 @@
     <Content Include="favicon.ico" />
     <Content Include="FileUpload.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="MultiViewControl.aspx" />
     <Content Include="Images\R.png" />
     <Content Include="ListControlsInASP.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -153,6 +155,7 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="WizardControl.aspx" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -203,6 +206,13 @@
     <Compile Include="AspCalendar.aspx.designer.cs">
       <DependentUpon>AspCalendar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -226,6 +236,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MultiViewControl.aspx.cs">
+      <DependentUpon>MultiViewControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiViewControl.aspx.designer.cs">
+      <DependentUpon>MultiViewControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="ListControlsInASP.aspx.cs">
       <DependentUpon>ListControlsInASP.aspx</DependentUpon>
@@ -255,6 +272,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardControl.aspx.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WizardControl.aspx.designer.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
