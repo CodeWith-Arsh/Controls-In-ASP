@@ -121,6 +121,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CookiesInASP.aspx" />
+    <Content Include="DataSource.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FileUpload.aspx" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="CookiesInASP.aspx.designer.cs">
       <DependentUpon>CookiesInASP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSource.aspx.cs">
+      <DependentUpon>DataSource.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataSource.aspx.designer.cs">
+      <DependentUpon>DataSource.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
